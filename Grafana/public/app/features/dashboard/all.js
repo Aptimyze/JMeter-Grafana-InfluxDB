@@ -1,0 +1,4 @@
+/*! grafana - v4.4.1 - 2017-07-05
+ * Copyright (c) 2017 Torkel Ödegaard; Licensed Apache-2.0 */
+
+define(["./dashboard_ctrl","./alerting_srv","./history/history","./dashboardLoaderSrv","./dashnav/dashnav","./submenu/submenu","./save_as_modal","./save_modal","./shareModalCtrl","./shareSnapshotCtrl","./dashboard_srv","./viewStateSrv","./time_srv","./unsavedChangesSrv","./unsaved_changes_modal","./timepicker/timepicker","./graphiteImportCtrl","./impression_store","./upload","./import/dash_import","./export/export_modal","./export_data/export_data_modal","./ad_hoc_filters","./row/row_ctrl","./repeat_option/repeat_option"],function(){});
