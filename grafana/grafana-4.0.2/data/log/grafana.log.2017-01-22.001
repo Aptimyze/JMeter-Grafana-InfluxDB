@@ -1,0 +1,211 @@
+t=2017-01-12T08:52:42+0200 lvl=info msg="Request Completed" logger=context userId=2 orgId=2 uname=hmansour@aspire-services.net method=GET path=/favicon.ico status=404 remote_addr=[::1] time_ms=9ns size=15994
+t=2017-01-12T14:21:39+0200 lvl=info msg="Starting Grafana" logger=main version=4.0.2 commit=v4.0.2+4-g8cef4cc compiled=2016-12-21T11:01:20+0200
+t=2017-01-12T14:21:39+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2/conf/defaults.ini
+t=2017-01-12T14:21:39+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\conf\\custom.ini
+t=2017-01-12T14:21:39+0200 lvl=info msg="Path Home" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2
+t=2017-01-12T14:21:39+0200 lvl=info msg="Path Data" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data
+t=2017-01-12T14:21:39+0200 lvl=info msg="Path Logs" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\log
+t=2017-01-12T14:21:39+0200 lvl=info msg="Path Plugins" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\plugins
+t=2017-01-12T14:21:39+0200 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-01-12T14:21:39+0200 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-01-12T14:21:39+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Bosun Incident List"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name=Breadcrumb
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name=Clock
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Datasource"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Panel"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name=Example
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Pie Chart"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik DS"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Call To Action"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Device List"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Connect Pro"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Snap DS"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name=Snap
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Worldmap Panel"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing CTA"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint List"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint Nav"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name=worldPing
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="stagemonitor Elasticsearch"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Registering plugin" logger=plugins name="Status Panel"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-01-12T14:21:39+0200 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-01-12T14:21:39+0200 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
+t=2017-01-12T14:21:39+0200 lvl=eror msg="Fail to start server" logger=server error="listen tcp 0.0.0.0:3000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."
+t=2017-01-12T14:21:39+0200 lvl=info msg="Shutdown started" logger=server code=1 reason="Startup failed"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Stopped CleanUpService" logger=cleanup reason="context canceled"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Stopped Alerting" logger=alerting.engine reason="context canceled"
+t=2017-01-12T14:21:39+0200 lvl=info msg="Shutdown completed" logger=server reason="context canceled"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Starting Grafana" logger=main version=4.0.2 commit=v4.0.2+4-g8cef4cc compiled=2016-12-21T11:01:20+0200
+t=2017-01-12T14:25:56+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2/conf/defaults.ini
+t=2017-01-12T14:25:56+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\conf\\custom.ini
+t=2017-01-12T14:25:56+0200 lvl=info msg="Path Home" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2
+t=2017-01-12T14:25:56+0200 lvl=info msg="Path Data" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data
+t=2017-01-12T14:25:56+0200 lvl=info msg="Path Logs" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\log
+t=2017-01-12T14:25:56+0200 lvl=info msg="Path Plugins" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\plugins
+t=2017-01-12T14:25:56+0200 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-01-12T14:25:56+0200 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-01-12T14:25:56+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Bosun Incident List"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name=Breadcrumb
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name=Clock
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Datasource"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Panel"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name=Example
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Pie Chart"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik DS"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Call To Action"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Device List"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Connect Pro"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Snap DS"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name=Snap
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Worldmap Panel"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing CTA"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint List"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint Nav"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name=worldPing
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="stagemonitor Elasticsearch"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Registering plugin" logger=plugins name="Status Panel"
+t=2017-01-12T14:25:56+0200 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-01-12T14:25:56+0200 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-01-12T14:25:56+0200 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
+t=2017-01-15T15:49:25+0200 lvl=info msg="Starting Grafana" logger=main version=4.0.2 commit=v4.0.2+4-g8cef4cc compiled=2016-12-21T11:01:20+0200
+t=2017-01-15T15:49:25+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2/conf/defaults.ini
+t=2017-01-15T15:49:25+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\conf\\custom.ini
+t=2017-01-15T15:49:25+0200 lvl=info msg="Path Home" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2
+t=2017-01-15T15:49:25+0200 lvl=info msg="Path Data" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data
+t=2017-01-15T15:49:25+0200 lvl=info msg="Path Logs" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\log
+t=2017-01-15T15:49:25+0200 lvl=info msg="Path Plugins" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\plugins
+t=2017-01-15T15:49:25+0200 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-01-15T15:49:25+0200 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-01-15T15:49:25+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-01-15T15:49:25+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-01-15T15:49:25+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-01-15T15:49:25+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-01-15T15:49:25+0200 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-01-15T15:49:25+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-15T15:49:25+0200 lvl=info msg="Registering plugin" logger=plugins name="Bosun Incident List"
+t=2017-01-15T15:49:25+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-15T15:49:25+0200 lvl=info msg="Registering plugin" logger=plugins name=Breadcrumb
+t=2017-01-15T15:49:25+0200 lvl=info msg="Registering plugin" logger=plugins name=Clock
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Datasource"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Panel"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name=Example
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Pie Chart"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik DS"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Call To Action"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Device List"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Connect Pro"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Snap DS"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name=Snap
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Worldmap Panel"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing CTA"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint List"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint Nav"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name=worldPing
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="stagemonitor Elasticsearch"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Registering plugin" logger=plugins name="Status Panel"
+t=2017-01-15T15:49:26+0200 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-01-15T15:49:26+0200 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-01-15T15:49:26+0200 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
+t=2017-01-15T15:49:30+0200 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/ status=302 remote_addr=[::1] time_ms=3ns size=29
+t=2017-01-15T15:49:32+0200 lvl=eror msg="Invalid username or password" logger=context userId=0 orgId=0 uname= error="Invalid Username or Password"
+t=2017-01-15T15:49:32+0200 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=POST path=/login status=401 remote_addr=[::1] time_ms=6ns size=42
+t=2017-01-15T15:49:32+0200 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/login/ping status=401 remote_addr=[::1] time_ms=4ns size=26
+t=2017-01-18T16:17:03+0200 lvl=info msg="Starting Grafana" logger=main version=4.0.2 commit=v4.0.2+4-g8cef4cc compiled=2016-12-21T11:01:20+0200
+t=2017-01-18T16:17:03+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2/conf/defaults.ini
+t=2017-01-18T16:17:03+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\conf\\custom.ini
+t=2017-01-18T16:17:03+0200 lvl=info msg="Path Home" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2
+t=2017-01-18T16:17:03+0200 lvl=info msg="Path Data" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data
+t=2017-01-18T16:17:03+0200 lvl=info msg="Path Logs" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\log
+t=2017-01-18T16:17:03+0200 lvl=info msg="Path Plugins" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\plugins
+t=2017-01-18T16:17:03+0200 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-01-18T16:17:03+0200 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-01-18T16:17:03+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Bosun Incident List"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name=Breadcrumb
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name=Clock
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Datasource"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Panel"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name=Example
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Pie Chart"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik DS"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Call To Action"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Device List"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Connect Pro"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Snap DS"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name=Snap
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Worldmap Panel"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing CTA"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint List"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint Nav"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name=worldPing
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="stagemonitor Elasticsearch"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Registering plugin" logger=plugins name="Status Panel"
+t=2017-01-18T16:17:03+0200 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-01-18T16:17:03+0200 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-01-18T16:17:03+0200 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
+t=2017-01-18T16:18:56+0200 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/ status=302 remote_addr=[::1] time_ms=4ns size=29
+t=2017-01-18T16:18:56+0200 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/login status=302 remote_addr=[::1] time_ms=63ns size=24
+t=2017-01-18T16:48:22+0200 lvl=info msg="Starting Grafana" logger=main version=4.0.2 commit=v4.0.2+4-g8cef4cc compiled=2016-12-21T11:01:20+0200
+t=2017-01-18T16:48:22+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2/conf/defaults.ini
+t=2017-01-18T16:48:22+0200 lvl=info msg="Config loaded from" logger=settings file=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\conf\\custom.ini
+t=2017-01-18T16:48:22+0200 lvl=info msg="Path Home" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2
+t=2017-01-18T16:48:22+0200 lvl=info msg="Path Data" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data
+t=2017-01-18T16:48:22+0200 lvl=info msg="Path Logs" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\log
+t=2017-01-18T16:48:22+0200 lvl=info msg="Path Plugins" logger=settings path=D:\\LT\\jmeter3.1\\grafana\\grafana-4.0.2\\data\\plugins
+t=2017-01-18T16:48:22+0200 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-01-18T16:48:22+0200 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-01-18T16:48:22+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Bosun Incident List"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name=Bosun
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name=Breadcrumb
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name=Clock
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Datasource"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Example App Panel"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name=Example
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Pie Chart"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik DS"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Call To Action"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Device List"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Kentik Connect Pro"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Snap DS"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name=Snap
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Worldmap Panel"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing CTA"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint List"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="worldPing Endpoint Nav"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name=worldPing
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="stagemonitor Elasticsearch"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Registering plugin" logger=plugins name="Status Panel"
+t=2017-01-18T16:48:22+0200 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-01-18T16:48:22+0200 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-01-18T16:48:22+0200 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
+t=2017-01-18T16:48:59+0200 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/ status=302 remote_addr=[::1] time_ms=5ns size=29
+t=2017-01-18T17:34:20+0200 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/ status=302 remote_addr=[::1] time_ms=3ns size=29
+t=2017-01-18T18:08:44+0200 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/dashboard/db/jmeter-load-test status=302 remote_addr=[::1] time_ms=7ns size=29
+t=2017-01-18T18:08:57+0200 lvl=info msg="Request Completed" logger=context userId=2 orgId=2 uname=hmansour@aspire-services.net method=GET path=/login status=302 remote_addr=[::1] time_ms=19ns size=24

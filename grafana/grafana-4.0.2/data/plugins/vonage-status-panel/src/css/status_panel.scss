@@ -1,0 +1,27 @@
+.status-panel {
+  display: table;
+  position: relative;
+  width: 100%;
+
+  & > div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.error-state {
+  background-color: red;
+}
+
+.warn-state {
+  background-color: orange;
+}
+
+.ok-state {
+  background-color: green;
+}
